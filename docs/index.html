@@ -1,1 +1,4 @@
 HW 5
+jobs_url = "https://cdn.jsdelivr.net/npm/vega-datasets@2.8.0/data/jobs.json"
+jobs = pd.read_json(jobs_url)
+print(jobs[0:4])
